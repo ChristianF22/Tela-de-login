@@ -1,0 +1,78 @@
+/* geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: rgb(17, 16, 16);
+    border: none;
+}
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: .8rem;
+}
+a:hover{
+    color: rgb(38, 38, 116);
+}
+
+#login-container{
+    background-color: aliceblue;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input-focus{
+    border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: rgb(45, 45, 129);
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+     background-color: rgb(56, 53, 53);
+     transition: .5s;
+}
